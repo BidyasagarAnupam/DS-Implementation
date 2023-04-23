@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int MAX = 10;
+const int MAX = 10;
 int stack[10];
 int top1 = -1, top2 = MAX;
 
