@@ -142,7 +142,7 @@ void delete_from_first() {
         start = start->next;
         start->prev = ptr;
         ptr->next = start;
-        free(temp);
+        delete(temp);
     }
 }
 
@@ -159,7 +159,7 @@ void delete_from_end() {
         }
         temp->next = start;
         start->prev = temp;
-        free(ptr);
+        delete(ptr);
     }
 }
 
@@ -180,7 +180,7 @@ void delete_at_mid() {
         }
         temp->prev->next = temp->next;
         temp->next->prev = temp->prev;
-        free(temp);
+        delete(temp);
     }
 }
 
