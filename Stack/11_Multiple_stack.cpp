@@ -46,7 +46,6 @@ void pop() {
 
 //  display
 void display() {
-    int i;
     if (top1 == -1) {
         cout << "\n Stack A is empty";
     } else {
