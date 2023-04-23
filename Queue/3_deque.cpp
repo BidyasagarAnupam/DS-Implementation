@@ -57,7 +57,7 @@ void deletion_from_front(deque *dq) {
             dq->front = -1;
             dq->rear = -1;
         } else {
-            dq->front = (dq->front + 1) % Size;
+            dq->front=(dq->front+1)%Size;
         }
         cout << x << " is successfully Deleted\n";
     }
