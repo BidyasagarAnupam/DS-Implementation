@@ -33,6 +33,7 @@ void pop() {
             cout << "Stack is empty\n";
         else {
             x = stack[top1--];
+            cout << x << " is successfully popped\n";
         }
     } else {
         if (top2 == 10) {
